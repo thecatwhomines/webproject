@@ -1,0 +1,87 @@
+  /*header css*/
+.header {
+  background-color: #63d4af;
+  text-align: center;
+  padding: 20px;  
+}
+  /* The navbar container */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(143, 216, 143);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #050404;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /*picture code*/
+  .responsive {
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+  }
+  /*set border for page heading*/
+  .h1{
+    font-size: 25px;
+    border-style: double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+  }
+  /*paragraph heading font and size*/
+  #h2{
+    font-size: 20px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  }
+  /*background colour*/
+  body {
+    background-color: rgb(216, 236, 243);
+  /*font size, style, margin and position*/
+    p{
+    font-size: 15px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    position: static;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+  /*video subtitle code*/
+  #p30{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  
+  }
+  /*footer code*/
+  .footer {
+    overflow: hidden;
+    background-color: rgb(143, 216, 143);
+  }
+  
+  .footer a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .footer a:hover {
+    background: #f1f1f1;
+    color: black;
+  }}

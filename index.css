@@ -1,0 +1,106 @@
+/*header css*/
+.header {
+    background-color: #63d4af;
+    text-align: center;
+    padding: 20px;  
+  }
+
+  /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(143, 216, 143);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #050404;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/*footer css*/
+  .footer {
+    overflow: hidden;
+    background-color: rgb(143, 216, 143);
+  }
+  /*footer code*/
+  .footer a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .footer a:hover {
+    background: #f1f1f1;
+    color: black;
+ /*picture css*/
+  }
+  .responsive {
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+  }
+  /*main background colour*/
+  body {
+    background-color: rgb(216, 236, 243);
+
+/*text css*/
+  .h1{
+    border-style: double;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  #h2{
+    font-size: 20px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;}
+  p{
+    font-size: 15px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 0px;
+    
+  }
+  }
+  /*code to center video*/
+  .center {
+    display: block;
+    position: relative;
+  width: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  
+  }
+  /*video subtitle code*/
+  #p30{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+  /*google map css*/
+  .google-map {
+    padding-bottom: 25%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
